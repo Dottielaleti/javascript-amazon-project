@@ -33,5 +33,5 @@ export function removeFromCart(productId) {
       newCart.push(cartItem);
     }
   });
-  cart = newCart
+  cart = newCart;
 }
